@@ -64,6 +64,8 @@ while(condition: count < 100>)
 
 
 ! " ; " is important as it indicates end of command.
+
 "\b\b   " if required to hide the last symbol, like , .
+
 " // " to leave a comment which does not affect the code (ctrl + /)
 
