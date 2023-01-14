@@ -14,8 +14,6 @@
 
 ! Take care of the files and terminals you're working in!
 
-- symbol " // " - to leave a comment which does not affect the code
-
 ## Basic commands
 - Console.WriteLine("text"); - to display something with a new line
 - Console.Write("text"); --> to display something in one line 
@@ -25,6 +23,8 @@
 - username.ToLower() --> letters case will not affect
 - Console.Clear(); --> cleans console
 - Console.SetCursorPosition(10, 4); --> puts symbols per required coordinates by indicated distance from left and right sides
+- int.Parse(Console.ReadLine()); & Convert.ToInt32(Console.ReadLine()); --> to read and convert the value into integer
+- Console.WriteLine($"text {number} text {result}"); & Console.WriteLine("text {0} text {1}", number, result); & Console.WriteLine("text " + number + " text " + result); --> to display the result into one line
 
 ## If Condition
 - if(username == "name")
@@ -45,8 +45,8 @@ while(condition: count < 100>)
     count = count + 1 (count++  /  count +=1)
 }
 
-
-! " ; " is important as it indicates end of command.
+## Functions
+- Convert.ToInt32(Math.Pow(number, 2)); --> exponentiation of number, set any figure instead of 2
 
 ## Data types
 - int number --> integer (Z-numbers): range -2 147 483 648 +2 147 483 648 / 32-bit integer
@@ -63,5 +63,7 @@ while(condition: count < 100>)
 - " () " --> changes priority of operations
 
 
-
+! " ; " is important as it indicates end of command.
+"\b\b   " if required to hide the last symbol, like , .
+" // " to leave a comment which does not affect the code (ctrl + /)
 
