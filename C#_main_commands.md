@@ -1,4 +1,4 @@
-# C# commands
+# C# basics
 
 ## Create new project
 - git init
