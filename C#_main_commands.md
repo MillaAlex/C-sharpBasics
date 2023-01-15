@@ -53,6 +53,9 @@ while(condition: count < 100>)
 - int Max(int arg1, int arg2, int arg3) --> find max
 - PrintArray(int[] array); --> show index in array
 - void --> does not return result
+- new Random().Next(1, 10); --> to fill with random numbers from 1 to 10
+- FillArray(array); --> fill array
+- PrintArray(array); --> to display array
 
 ## Arrays
 - int [] array = {..., ..., ...}; --> to define array
