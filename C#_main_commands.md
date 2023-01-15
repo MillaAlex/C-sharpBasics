@@ -45,7 +45,7 @@ while(condition: count < 100>)
     count = count + 1 (count++  /  count +=1)
 }
 
-## Functions
+## Methods (Functions)
 - Convert.ToInt32(Math.Pow(number, 2)); --> exponentiation of number, set any figure instead of 2
 - count++; --> to increase by 1
 - return --> returns result
