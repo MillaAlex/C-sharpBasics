@@ -47,6 +47,21 @@ while(condition: count < 100>)
 
 ## Functions
 - Convert.ToInt32(Math.Pow(number, 2)); --> exponentiation of number, set any figure instead of 2
+- count++; --> to increase by 1
+- return --> returns result
+- break --> stop running
+- int Max(int arg1, int arg2, int arg3) --> find max
+- PrintArray(int[] array); --> show index in array
+- void --> does not return result
+
+## Arrays
+- int [] array = {..., ..., ...}; --> to define array
+- array[0] = 12; --> to write value in the array index
+- Console.WriteLine(array[4]); --> to display the value stored by index 4
+- array.Length; --> define length of array
+- int[] array = new int[10]; --> to create a new array and give its size - 10. By default it is filled with 0
+- void FillArray(int[] array) --> to fill array
+- array[index] = new Random().Next(1, 10); --> to fill with random numbers from 1 to 10
 
 ## Data types
 - int number --> integer (Z-numbers): range -2 147 483 648 +2 147 483 648 / 32-bit integer
