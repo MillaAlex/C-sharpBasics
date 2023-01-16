@@ -11,6 +11,7 @@
 
 ### How to get rid of unnecessary files/folders
 .gitignore --> create this file and there is ready file for dotnet on GitHub, just to copy & save & add & commit
+dotnet new gitignore --> to create .gitignore from terminal
 
 ! Take care of the files and terminals you're working in!
 
