@@ -26,6 +26,7 @@ dotnet new gitignore --> to create .gitignore from terminal
 - Console.SetCursorPosition(10, 4); --> puts symbols per required coordinates by indicated distance from left and right sides
 - int.Parse(Console.ReadLine()); & Convert.ToInt32(Console.ReadLine()); --> to read and convert the value into integer
 - Console.WriteLine($"text {number} text {result}"); & Console.WriteLine("text {0} text {1}", number, result); & Console.WriteLine("text " + number + " text " + result); --> to display the result into one line
+- Console.Write(“\b\b \n“); 
 
 ## If Condition
 - if(username == "name")
