@@ -27,6 +27,10 @@ dotnet new gitignore --> to create .gitignore from terminal
 - int.Parse(Console.ReadLine()); & Convert.ToInt32(Console.ReadLine()); --> to read and convert the value into integer
 - Console.WriteLine($"text {number} text {result}"); & Console.WriteLine("text {0} text {1}", number, result); & Console.WriteLine("text " + number + " text " + result); --> to display the result into one line
 - Console.Write(“\b\b \n“); --> to hide a symbol and start a new line
+- string[] arr =  Console.ReadLine().Split(' ');
+
+Console.WriteLine(arr[0]);
+Console.WriteLine(arr[1]);
 
 ## If Condition
 - if(username == "name")
