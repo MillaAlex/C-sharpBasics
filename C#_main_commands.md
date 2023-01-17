@@ -11,6 +11,7 @@
 
 ### How to get rid of unnecessary files/folders
 .gitignore --> create this file and there is ready file for dotnet on GitHub, just to copy & save & add & commit
+
 dotnet new gitignore --> to create .gitignore from terminal
 
 ! Take care of the files and terminals you're working in!
@@ -20,7 +21,6 @@ dotnet new gitignore --> to create .gitignore from terminal
 - Console.Write("text"); --> to display something in one line 
 - Console.ReadLine(); - reads data. But it is necessary to store this data somewhere --> take care of data type
 - new Random().Next(min, max); --> gives a random integer from min to max-1 #int number = new Random().Next(1, 10);
-- string username = Console.ReadLine(); --> to read the data that user entered
 - username.ToLower() --> letters case will not affect
 - Console.Clear(); --> cleans console
 - Console.SetCursorPosition(10, 4); --> puts symbols per required coordinates by indicated distance from left and right sides
@@ -41,7 +41,7 @@ else
 
 ## While cycle
 int count = 0;
-while(condition: count < 100>)
+while(condition: count < 100)
 {
     actions
     count = count + 1 (count++  /  count +=1)
@@ -84,8 +84,6 @@ while(condition: count < 100>)
 
 
 ! " ; " is important as it indicates end of command.
-
-"\b\b   " if required to hide the last symbol, like , .
 
 " // " to leave a comment which does not affect the code (ctrl + /)
 
