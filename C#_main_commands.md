@@ -71,6 +71,7 @@ while(condition: count < 100)
 - int[] array = new int[10]; --> to create a new array and give its size - 10. By default it is filled with 0
 - void FillArray(int[] array) --> to fill array
 - array[index] = new Random().Next(1, 10); --> to fill with random numbers from 1 to 10
+- Console.WriteLine($"[{string.Join(", ", array)}]"); // вывод всего массива сразу
 
 ## Data types
 - int number --> integer (Z-numbers): range -2 147 483 648 +2 147 483 648 / 32-bit integer
