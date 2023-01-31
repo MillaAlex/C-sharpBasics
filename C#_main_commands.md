@@ -21,6 +21,7 @@ dotnet new gitignore --> to create .gitignore from terminal
 - Console.Write("text"); --> to display something in one line 
 - Console.ReadLine(); - reads data. But it is necessary to store this data somewhere --> take care of data type
 - new Random().Next(min, max); --> gives a random integer from min to max-1 #int number = new Random().Next(1, 10);
+- double num = (new Random().NextDouble()) * 10; --> gives a random double (0.2546 --> that's why *10
 - username.ToLower() --> letters case will not affect
 - Console.Clear(); --> cleans console
 - Console.SetCursorPosition(10, 4); --> puts symbols per required coordinates by indicated distance from left and right sides
@@ -51,6 +52,7 @@ while(condition: count < 100)
     count = count + 1 (count++  /  count +=1)
 }
 
+
 ## Methods (Functions)
 - Convert.ToInt32(Math.Pow(number, 2)); --> exponentiation of number, set any figure instead of 2
 - count++; --> to increase by 1
@@ -72,6 +74,18 @@ while(condition: count < 100)
 - void FillArray(int[] array) --> to fill array
 - array[index] = new Random().Next(1, 10); --> to fill with random numbers from 1 to 10
 - Console.WriteLine($"[{string.Join(", ", array)}]"); // вывод всего массива сразу
+
+
+FOR reverse output of array:
+
+void ReverseArray(int[] array)
+
+{
+
+    for (int i = array.Length - 1; i >= 0; i--) Console.Write($"{array[i]}");
+
+}
+
 
 ## Data types
 - int number --> integer (Z-numbers): range -2 147 483 648 +2 147 483 648 / 32-bit integer
