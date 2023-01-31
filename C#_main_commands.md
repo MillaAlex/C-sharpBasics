@@ -22,6 +22,7 @@ dotnet new gitignore --> to create .gitignore from terminal
 - Console.ReadLine(); - reads data. But it is necessary to store this data somewhere --> take care of data type
 - new Random().Next(min, max); --> gives a random integer from min to max-1 #int number = new Random().Next(1, 10);
 - double num = (new Random().NextDouble()) * 10; --> gives a random double (0.2546 --> that's why *10
+- Random rand = new Random(); 
 - username.ToLower() --> letters case will not affect
 - Console.Clear(); --> cleans console
 - Console.SetCursorPosition(10, 4); --> puts symbols per required coordinates by indicated distance from left and right sides
