@@ -16,7 +16,7 @@ dotnet new gitignore --> to create .gitignore from terminal
 
 ! Take care of the files and terminals you're working in!
 
-## Basic commands
+## Basic commands samples
 - Console.WriteLine("text"); - to display something with a new line
 - Console.Write("text"); --> to display something in one line 
 - Console.ReadLine(); - reads data. But it is necessary to store this data somewhere --> take care of data type
@@ -30,9 +30,9 @@ dotnet new gitignore --> to create .gitignore from terminal
 - Console.WriteLine($"text {number} text {result}"); & Console.WriteLine("text {0} text {1}", number, result); & Console.WriteLine("text " + number + " text " + result); --> to display the result into one line
 - Console.Write(“\b\b \n“); --> to hide a symbol and start a new line
 - string[] arr =  Console.ReadLine().Split(' ');
-
-Console.WriteLine(arr[0]);
-Console.WriteLine(arr[1]);
+- Console.WriteLine(arr[0]);
+- Console.WriteLine(arr[1]);
+- Console.Write(string.Join(" ", Fibonacci(num)));
 
 ## If Condition
 - if(username == "name")
@@ -65,6 +65,9 @@ while(condition: count < 100)
 - new Random().Next(1, 10); --> to fill with random numbers from 1 to 10
 - FillArray(array); --> fill array
 - PrintArray(array); --> to display array
+- Random random = new Random();
+- int[] array = new int[random.Next(1, 10)];
+- array[i] = random.Next(1, 25);
 
 ## Arrays
 - int [] array = {..., ..., ...}; --> to define array
